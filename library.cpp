@@ -39,4 +39,22 @@ class book
         cout<<"Author Name : ";
         puts(aname);
     }
+void modify_book()
+    {
+        cout<<"\nBook no. : "<<bno;
+        cout<<"\nModify Book Name : ";
+        gets(bname);
+        cout<<"\nModify Author's Name of Book : ";
+        gets(aname);
+    }
 
+    char* retbno()
+    {
+        return bno;
+    }
+
+    void report()
+    {cout<<bno<<setw(30)<<bname<<setw(30)<<aname<<endl;}
+
+
+};         //class ends here
