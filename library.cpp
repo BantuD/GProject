@@ -31,3 +31,12 @@ class book
         gets(aname);
         cout<<"\n\n\nBook Created..";
     }
+	 void show_book()
+    {
+        cout<<"\nBook no. : "<<bno;
+        cout<<"\nBook Name : ";
+        puts(bname);
+        cout<<"Author Name : ";
+        puts(aname);
+    }
+
