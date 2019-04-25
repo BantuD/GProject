@@ -153,3 +153,42 @@ public:
         if(token==1)
             cout<<"\nBook No "<<stbno;
     }
+
+    void modify_student()
+    {
+        cout<<"\nAdmission no. : "<<admno;
+        cout<<"\nModify Student Name : ";
+        gets(name);
+    }
+
+    char* retadmno()
+    {
+        return admno;
+    }
+
+    char* retstbno()
+    {
+        return stbno;
+    }
+
+    int rettoken()
+    {
+        return token;
+    }
+
+    void addtoken()
+    {token=1;}
+
+    void resettoken()
+    {token=0;}
+
+    void getstbno(char t[])
+    {
+        strcpy(stbno,t);
+    }
+
+    void report()
+    {cout<<"\t"<<admno<<setw(20)<<name<<setw(10)<<token<<endl;}
+
+};         //class ends here
+
