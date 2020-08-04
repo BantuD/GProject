@@ -20,10 +20,11 @@ class book
 	char bname[50];
 	char aname[20];
   public:
+	
 	void create_book()
 	{
         cout<<"\nNEW BOOK ENTRY...\n";
-        cout<<"\nEnter The book no.";
+        cout<<"\nEnter The book no.\n";      //add backslash
         cin>>bno;
         cout<<"\n\nEnter The Name of The Book ";
         gets(bname);
