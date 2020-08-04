@@ -48,7 +48,8 @@ void modify_book()
         gets(aname);
     }
 
-    char* retbno()
+   
+	char* retbno()
     {
         return bno;
     }
